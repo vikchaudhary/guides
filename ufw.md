@@ -2,6 +2,8 @@
 title: Using a Firewall (UFW)
 parent: Securing an Apache Server
 nav_order: 4
+toc: true
+toc_sticky: true
 ---
 
 # **Using a firewall `UFW` **

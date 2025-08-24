@@ -1,6 +1,8 @@
 title: Securing an Apache Server
 description: A step-by-step guide to securing Apache with Fail2Ban and UFW
-remote_theme: just-the-docs/just-the-docs
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
 
 # URL of your GitHub Pages site
 url: https://vikchaudhary.github.io/securing-an-apache-server

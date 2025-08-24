@@ -2,6 +2,8 @@
 title: Automatically Detect Intrusions with Fail2Ban
 parent: Securing an Apache Server
 nav_order: 3
+toc: true
+toc_sticky: true
 ---
 
 `fail2ban` is software that detects access to your servers and if they are discovered to be engaging in suspicious or malicious access, will automatically ban them, and secure the server. These are topics we will cover.

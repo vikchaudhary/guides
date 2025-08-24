@@ -2,6 +2,8 @@
 title: Discovering Intrusions by Bad Actors
 parent: Securing an Apache Server
 nav_order: 2
+toc: true
+toc_sticky: true
 ---
 
 ## Discovering Intrusions by Bad Actors

@@ -2,6 +2,8 @@
 title: Securing an Apache Server
 nav_order: 1
 has_children: true
+toc: true
+toc_sticky: true
 ---
 
 # Securing an Apache Server
