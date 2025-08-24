@@ -1,12 +1,12 @@
 ---
-title: Using a Firewall (UFW)
-parent: Securing an Apache Server
-nav_order: 4
+layout: single
+title: "Using a Firewall (UFW)"
+permalink: /ufw/
 toc: true
 toc_sticky: true
 ---
 
-# **Using a firewall `UFW` **
+# Using a firewall (UFW)
 
 1. How to **ban a list of IPs** via `ufw`.
 
@@ -155,4 +155,4 @@ done
 
 ---
 
-# 
+#

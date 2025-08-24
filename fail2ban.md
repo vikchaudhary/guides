@@ -1,7 +1,7 @@
 ---
-title: Automatically Detect Intrusions with Fail2Ban
-parent: Securing an Apache Server
-nav_order: 3
+layout: single
+title: "Automatically Detect Intrusions with Fail2Ban"
+permalink: /fail2ban/
 toc: true
 toc_sticky: true
 ---
@@ -14,7 +14,7 @@ toc_sticky: true
 
 3. How to **test filters** using `fail2ban-regex` to confirm they match actual log lines.
 
-4. Why a jail triggered but **didn’t result in a ban**.
+4. Why a jail triggered but **didn't result in a ban**.
 
 5. How to **make bans permanent** (`bantime = -1`).
 

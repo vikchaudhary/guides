@@ -1,7 +1,7 @@
 ---
-title: Discovering Intrusions by Bad Actors
-parent: Securing an Apache Server
-nav_order: 2
+layout: single
+title: "Discovering Intrusions by Bad Actors"
+permalink: /discovering-intrusions/
 toc: true
 toc_sticky: true
 ---
