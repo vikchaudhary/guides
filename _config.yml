@@ -1,9 +1,20 @@
 title: Securing an Apache Server
+description: A step-by-step guide to securing Apache with Fail2Ban and UFW
 theme: just-the-docs
 
 # URL of your GitHub Pages site
 url: https://vikchaudhary.github.io/securing-an-apache-server
 
-# Navigation order
+# Enable search
+search_enabled: true
+
+# Navigation order at the root
 nav_order: 1
+
+# Optional: show "Edit this page on GitHub" link
+# Replace with your repo path
+aux_links:
+  "View on GitHub":
+    - "//github.com/vikchaudhary/securing-an-apache-server"
+
 
