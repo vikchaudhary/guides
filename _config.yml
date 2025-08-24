@@ -5,7 +5,8 @@ plugins:
   - jekyll-include-cache
 
 # URL of your GitHub Pages site
-url: https://vikchaudhary.github.io/securing-an-apache-server
+url: https://vikchaudhary.github.io
+baseurl: "/securing-an-apache-server"
 
 # Enable search
 search_enabled: true

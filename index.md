@@ -8,17 +8,21 @@ header:
   overlay_image: /assets/images/header.jpg
   actions:
     - label: "Get Started"
-      url: "/fail2ban/"
+      url: "/securing-an-apache-server/fail2ban/"
 toc: true
 toc_sticky: true
 ---
 
-# Securing an Apache Server
+# About This Guide
 
-This document outlines how to troubleshoot common issues related to server security using Apache, Fail2Ban, and UFW. Organized by topic, each section addresses specific problems encountered and their solutions.
+This document outlines how to harden a Linux server after an intrusion, or to prevent intrusions before they occur. You will learn how to troubleshoot common issues related to server security using Apache, Fail2Ban, and UFW. Organized by topic, each section addresses specific problems encountered and their solutions.
+
+# Audience
+
+This guide is intended for system administrators, DevOps engineers, and anyone responsible for maintaining the security of Apache servers. It assumes a basic understanding of server administration, Apache configuration, and Linux command-line operations.
 
 ## Table of contents
 
-* [Discovering Intrusions by Bad Actors](/discovering-intrusions/)
-* [Automatically Detect Intrusions with Fail2Ban](/fail2ban/)
-* [Using a Firewall (UFW)](/ufw/)
+* [Discovering Server Intrusions by Bad Actors](/securing-an-apache-server/discovering-intrusions/)
+* [Automatically Detect Intrusions with Fail2Ban](/securing-an-apache-server/fail2ban/)
+* [Use Uncomplicated Firewall (UFW) to Block Bad Actors](/securing-an-apache-server/ufw/)
