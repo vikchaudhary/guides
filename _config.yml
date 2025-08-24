@@ -1,1 +1,9 @@
-theme: minima
+title: Securing an Apache Server
+theme: just-the-docs
+
+# URL of your GitHub Pages site
+url: https://vikchaudhary.github.io/securing-an-apache-server
+
+# Navigation order
+nav_order: 1
+
