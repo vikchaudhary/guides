@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/header.jpg
   actions:
     - label: "Get Started"
-      url: "/guides/securing-an-apache-server/discovering-intrusions/"
+      url: "/securing-an-apache-server/discovering-intrusions/"
 toc: true
 toc_sticky: true
 ---
