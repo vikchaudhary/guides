@@ -6,7 +6,7 @@ plugins:
 
 # URL of your GitHub Pages site
 url: https://vikchaudhary.github.io
-baseurl: "/guides"
+baseurl: "/guides/securing-an-apache-server/"
 
 # Enable search
 search_enabled: true

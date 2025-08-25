@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Automatically Detect Intrusions with Fail2Ban"
-permalink: /securing-an-apache-server/fail2ban/
+permalink: /guides/securing-an-apache-server/fail2ban/
 toc: true
 toc_sticky: true
 ---
