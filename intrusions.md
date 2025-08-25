@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Discovering Server Intrusions by Bad Actors"
-permalink: /securing-an-apache-server/discovering-intrusions/
+title: "Securing an Apache Server"
+permalink: /securing-an-apache-server/
 toc: true
 toc_sticky: true
 ---
 
-## Discovering Intrusions by Bad Actors
+# Discovering server intrusions by bad actors
 
 The goal of this section is verifying whether your servers have been hacked. We will cover:
 
@@ -18,7 +18,7 @@ The goal of this section is verifying whether your servers have been hacked. We 
 
 ---
 
-### Searching Apache logs for intrusion attempts
+## Searching Apache logs for intrusion attempts
 
 Once you suspect that your server has been hacked into, immediately verify the intrusion attempts by analysing your website's log files, such as Apache logs. Apache logs are in various places. 
 
@@ -42,21 +42,21 @@ The output is typically hard to understand unless you're a Unix expert.
 
 Using ChatGPT to parse the content will ease the task of identifying intrusions, which is what I recently did, confirming that a bad actor from IP address `115.76.223.110` had gained access to a server, and how they did it. 
 
-### Securing a server from intrusions
+## Securing a server from intrusions
 
 Once you see IP addresses that are, say, attempting to `ssh` into your servers, and these IPs are not from your own local machines, then you should immediately take steps to block these IPs manually, as long as the list is small. Later, as this guide shows you, you will use intelligent automated methods to detect and block malicious attacks from IP addresses, at scale.
 
-#### Blocking an IP address
+### Blocking an IP address
 
 To immediately ban an IP address, you can block malicious IPs using `ufw` and Apache config. Later, we will use `fail2ban` to setup intrusion rules, alerts can be set up using log monitoring tools like `logwatch`, `logrotate+mail`, or custom scripts.
 
-##### ✅ **Option 1: Block IP with UFW (firewall)**
+#### ✅ **Option 1: Block IP with UFW (firewall)**
 
 `sudo ufw deny from 115.76.223.110 `
 
 `sudo ufw reload`
 
-##### ✅ **Option 2: Block in Apache Config**
+#### ✅ **Option 2: Block in Apache Config**
 
 Add to your Apache config or `.htaccess`:
 
@@ -68,6 +68,8 @@ Add to your Apache config or `.htaccess`:
 ```
 
 The next section will show you how to automatically detect intrusions.
+
+# Automatically detect and block intrusions
 
 `fail2ban` is software that detects access to your servers and if they are discovered to be engaging in suspicious or malicious access, will automatically ban them, and secure the server. These are topics we will cover.
 
@@ -87,7 +89,7 @@ The next section will show you how to automatically detect intrusions.
 
 ---
 
-## How to setup a **Fail2Ban jail**™
+## How to setup a fail2Ban jail
 
 ### Install fail2ban for automatic blocking
 
@@ -182,7 +184,9 @@ The output looks like:
 
 `Status for the jail: apache-cgitraversal |- Filter |  |- Currently failed: 1 |  |- Total failed:     3 |_  - Banned IP list:   1.2.3.4 5.6.7.8`
 
-## Recap: What You Now Have
+## Recap
+
+You now have a working `fail2ban` jail with:
 
 - **Custom jail** (`apache-cgitraversal`) monitoring `/var/log/apache2/error.log`
 
@@ -194,7 +198,7 @@ The output looks like:
 
 ---
 
-# Check Fail2ban logs to see attempted intrusions
+## Check Fail2ban logs to see attempted intrusions
 
 After a day, you can check Fail2ban logs, and see what intrusions were attempted. It is very likely that, especially if you have a website hosted on that server, you will see a lot of malicious intrusion attempts.
 
@@ -229,7 +233,7 @@ ChatGPT will give you a list like this:
 
 ![Screenshot 2025-08-20 at 8.41.15 PM.png](/Users/vik/Dropbox%20(Personal)/Screenshots/Screenshot%202025-08-20%20at%208.41.15%20PM.png)
 
-## Blocking IP addresses using a firewall
+### Blocking IP addresses using a firewall
 
 Next, as ChatGPT suggests, you want to check that these IP addresses have been blocked at the firewall level. Your `fail2ban` jail should have executed `ufw` to block these IP addresses already, but it does not hurt to check. In the next section, we will show you how to use `ufw` - which stands for "Uncomplicated Fire Wall".
 
@@ -378,8 +382,4 @@ for ip in $missing; do
 done
 ```
 
-### 
 
----
-
-#
