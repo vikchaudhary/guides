@@ -4,7 +4,7 @@ title: "Securing an Apache Server"
 permalink: /securing-an-apache-server/
 toc: true
 toc_sticky: true
-font_size: 14px
+font_size: 12px
 ---
 
 Securing your web server on Apache is essential to protect your website and server from potential attacks. In this article, we will cover the following topics:
