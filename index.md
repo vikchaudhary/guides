@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/header.jpg
   actions:
     - label: "Get Started"
-      url: "/guides/securing-an-apache-server/fail2ban/"
+      url: "/securing-an-apache-server/fail2ban/"
 toc: true
 toc_sticky: true
 ---
@@ -23,6 +23,6 @@ This guide is intended for system administrators, DevOps engineers, and anyone r
 
 ## Table of contents
 
-* [Discovering Server Intrusions by Bad Actors](/guides/securing-an-apache-server/discovering-intrusions/)
-* [Automatically Detect Intrusions with Fail2Ban](/guides/securing-an-apache-server/fail2ban/)
-* [Use Uncomplicated Firewall (UFW) to Block Bad Actors](/guides/securing-an-apache-server/ufw/)
+* [Discovering Server Intrusions by Bad Actors](/securing-an-apache-server/discovering-intrusions/)
+* [Automatically Detect Intrusions with Fail2Ban](/securing-an-apache-server/fail2ban/)
+* [Use Uncomplicated Firewall (UFW) to Block Bad Actors](/securing-an-apache-server/ufw/)
