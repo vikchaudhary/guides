@@ -6,6 +6,13 @@ toc: true
 toc_sticky: true
 ---
 
+Securing your web server on Apache is essential to protect your website and server from potential attacks. In this article, we will cover the following topics:
+
+1. Discovering server intrusions
+2. Automatically detecting intrusions
+3. Blocking bad actors
+
+
 # Discovering server intrusions by bad actors
 
 The goal of this section is verifying whether your servers have been hacked. We will cover:

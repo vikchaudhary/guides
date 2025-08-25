@@ -1,5 +1,5 @@
-title: Securing an Apache Server
-description: A step-by-step guide to securing Apache with Fail2Ban and UFW
+title: Guides
+description: Step-by-step guide running online sites
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-include-cache
