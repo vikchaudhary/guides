@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Use Uncomplicated Firewall (UFW) to Block Bad Actors"
-permalink: /securing-an-apache-server/ufw/
+permalink: /guides/securing-an-apache-server/ufw/
 toc: true
 toc_sticky: true
 ---
