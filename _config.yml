@@ -6,7 +6,7 @@ plugins:
 
 # URL of your GitHub Pages site
 url: https://vikchaudhary.github.io
-baseurl: "/guides/securing-an-apache-server"
+baseurl: "/guides"
 
 # Enable search
 search_enabled: true
@@ -18,6 +18,6 @@ nav_order: 1
 # Replace with your repo path
 aux_links:
   "View on GitHub":
-    - "//github.com/vikchaudhary/securing-an-apache-server"
+    - "//github.com/vikchaudhary/guides"
 
 
