@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Discovering Server Intrusions by Bad Actors"
-permalink: /guides/securing-an-apache-server/discovering-intrusions/
+permalink: /securing-an-apache-server/discovering-intrusions/
 toc: true
 toc_sticky: true
 ---
