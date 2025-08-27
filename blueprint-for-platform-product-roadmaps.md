@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 ---
 
-## A practical guide for people building platforms in 2024\.
+**A practical guide for people building platforms in 2024\.**
 
 By [Vik Chaudhary](https://www.linkedin.com/in/vikchaudhary) and [Sid Palani](https://www.linkedin.com/in/sidpalani)
 
