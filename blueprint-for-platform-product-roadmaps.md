@@ -12,7 +12,7 @@ By [Vik Chaudhary](https://www.linkedin.com/in/vikchaudhary) and [Sid Palani](ht
 
 Published on Tue Jul 9, 2024 on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7216475133052432388?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7216475133052432388%29), [Neuronn on LinkedIn](https://www.linkedin.com/posts/neuronn_there-are-many-resources-for-product-managers-activity-7216440984052588545-Bko6?utm_source=share&utm_medium=member_desktop), [Substack](https://neuronn.substack.com/p/blueprint-for-platform-product-roadmaps?r=hhsh6&utm_campaign=post&utm_medium=web&triedRedirect=true) and [Google Slides](https://docs.google.com/presentation/d/113AWG-9jQnw_atpwovsRDxFco6JSIVHcN-h8qhk8DOI/edit?usp=sharing)
 
-![Blueprint for Platform Product Roadmaps](/guides/assets/img/blueprint-for-platform-product-roadmaps/cover-blueprint-for-platform-product-roadmaps.png "Blueprint for Platform Product Roadmaps")
+![Blueprint for Platform Product Roadmaps]( https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/cover-blueprint-for-platform-product-roadmaps.png "Blueprint for Platform Product Roadmaps")
 
 # Our Motivation
 
