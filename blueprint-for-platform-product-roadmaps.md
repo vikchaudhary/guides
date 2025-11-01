@@ -6,15 +6,17 @@ toc: true
 toc_sticky: true
 ---
 
-**A practical guide for people building platforms in 2024\.**
+# Blueprint for Platform Product Roadmaps
 
-By [Vik Chaudhary](https://www.linkedin.com/in/vikchaudhary) and [Sid Palani](https://www.linkedin.com/in/sidpalani)
+By [Vik Chaudhary](https://www.linkedin.com/in/vikchaudhary) and https://www.linkedin.com/in/sidpalani
 
-Published on Tue Jul 9, 2024 on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7216475133052432388?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7216475133052432388%29), [Neuronn on LinkedIn](https://www.linkedin.com/posts/neuronn_there-are-many-resources-for-product-managers-activity-7216440984052588545-Bko6?utm_source=share&utm_medium=member_desktop), [Substack](https://neuronn.substack.com/p/blueprint-for-platform-product-roadmaps?r=hhsh6&utm_campaign=post&utm_medium=web&triedRedirect=true) and [Google Slides](https://docs.google.com/presentation/d/113AWG-9jQnw_atpwovsRDxFco6JSIVHcN-h8qhk8DOI/edit?usp=sharing)
+Published on Tue Jul 9, 2024 
 
-![Blueprint for Platform Product Roadmaps]( https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/cover-blueprint-for-platform-product-roadmaps.png "Blueprint for Platform Product Roadmaps")
+Read on: [LinkedIn](https://www.linkedin.com/posts/neuronn_there-are-many-resources-for-product-managers-activity-7216440984052588545-Bko6?utm_source=share&utm_medium=member_desktop), [Substack](https://neuronn.substack.com/p/blueprint-for-platform-product-roadmaps?r=hhsh6&utm_campaign=post&utm_medium=web&triedRedirect=true) and [Google Slides](https://docs.google.com/presentation/d/113AWG-9jQnw_atpwovsRDxFco6JSIVHcN-h8qhk8DOI/edit?usp=sharing)
 
-# Our Motivation
+![Blueprint for Platform Product Roadmaps](/Users/vik/Dropbox%20(Personal)/Code/guides/assets/img/blueprint-for-platform-product-roadmaps/cover-blueprint-for-platform-product-roadmaps.png)
+
+## Our Motivation
 
 There are many resources for product managers of consumer apps or B2B applications. However, we see a gap in PM resources for the unique challenges of building platforms, which serve as foundational tools for developers (e.g., AWS, Cohere, GitHub, Google Vertex AI, OpenAI GPT, Shopify, Stripe, and Twilio) and are becoming increasingly common in the AI era. This article aims to bridge that gap by providing a framework to outline a platform roadmap. It is intended for product managers, engineering leaders, CIOs, and CEOs thinking about building platforms, and uses an example framework to create strategy, articulate benefits, prioritize features, and deliver a roadmap for a platform product.
 
@@ -26,7 +28,7 @@ Our experience with developer and ML platform teams at Meta is that roadmaps oft
 
 * **Unreliable Systems.** Automated dependency updates cause more production errors, leading to time-consuming debugging, crucial downtime incidents, and slow root cause analysis. 
 
-# What Are Platform Products?
+## What Are Platform Products?
 
 A software platform provides a foundation (e.g., environment, tools) that developers, either internal or external, use to build applications more easily than building and maintaining everything themselves.
 
@@ -34,7 +36,7 @@ Some renowned platforms for developers include **Stripe**, which powers website 
 
 ![Examples of Platform Products](/guides/assets/img/blueprint-for-platform-product-roadmaps/examples-of-platform-products.png "Examples of Platform Products")
 
-# Framework
+## Framework
 
 In our examples, we will address developers' workflow using a platform to build front-end applications, back-end services, or data management services. In doing so, we plan to answer the following questions:
 
@@ -44,15 +46,15 @@ In our examples, we will address developers' workflow using a platform to build 
 4\. How do you create a timeline for the roadmap?  
 5\. What is the Go-to-Market plan that ensures adoption?
 
-# 1\. How do you set a platform's vision, strategy, and guiding principles?
+## 1\. How do you set a platform's vision, strategy, and guiding principles?
 
-## Product Vision
+### Product Vision
 
 A product vision is a statement that outlines a product's purpose, value, and long-term goals. Here’s an example of an internal developer platform at Meta that helps developers build and operate consumer apps like Facebook:
 
 ![Example Vision](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/example-vision.png "Examples of Platform Product Vision")
 
-## Principles for Internal Platforms
+### Principles for Internal Platforms
 
 When building a Platform for internal use, be driven by deep discovery, 10x problem-solving, adoption, and impact. Our guiding principles are:
 
@@ -78,7 +80,7 @@ When building a Platform for internal use, be driven by deep discovery, 10x prob
 * Simplify deployment: Clear documentation, fewer services, common configuration templates / smart defaults, and standardized libraries for observability and workload deployment.  
 * Deploy customized onboarding tools based on developer personas.
 
-## Benefits of a Developer Platform
+### Benefits of a Developer Platform
 
 What is the rationale for building a developer platform? A platform allows a company to provide its core offerings in a way that can easily adapt and scale into a large ecosystem of customers and partners. It benefits the ecosystem because it creates a common language for building and adopting core features, making development easier and increasing velocity, leverage, and impact for the business. 
 
@@ -86,13 +88,13 @@ What is the rationale for building a developer platform? A platform allows a com
 
 The best-in-class tooling from each development team can be centralized in the engineering platform for all other teams to benefit from. In addition, having a robust, well-documented engineering platform can expedite the time from hire to first pull request, increasing the productivity of new or transferred developers.
 
-## Evergreen Priorities
+### Evergreen Priorities
 
 While every platform is unique, it shares a set of “always-on” priorities that ground a roadmap: developer experience, delivery, and reliability. Developers are not only the core users but also the force multipliers for the platform’s impact and scale. These priorities address core needs regardless of specific use cases and provide helpful constraints to manage the numerous possible directions platforms can take.
 
 ![Evergreen Priorities ](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/evergreen-priorities.png "Evergreen Priorities")
 
-## Considerations for AI / ML Platforms
+### Considerations for AI / ML Platforms
 
 Platforms that employ artificial intelligence and machine learning features have specific important nuances worth highlighting. It is important that priorities account for these elements:
 
@@ -104,9 +106,9 @@ Platforms that employ artificial intelligence and machine learning features have
 
 4. **Success Measures.** A measurement framework (discussed below) will need to integrate common ML model performance metrics such as accuracy, precision, and recall that are often upstream of core product metrics but offer another area that can either help or hurt a developer’s experience of the platform.
 
-# 2\. How do you measure success?
+## 2\. How do you measure success?
 
-## Setting Goals
+### Setting Goals
 
 Measuring success for platform products is especially challenging because they are removed from end use cases. As such, we focus on the primary developer users and use a broad set of dimensions to encompass how well the platform delivers the value promised. A framework commonly used at Google is the QUANTS framework, which we describe below.  
 
@@ -122,9 +124,9 @@ Once developers adopt and use your platform tools, they will depend on their rel
 
 ![Measuring Reliability](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/measuring-reliability.png "Measuring Reliability")
 
-# 3\. How do you prioritize a platform roadmap?
+## 3\. How do you prioritize a platform roadmap?
 
-## Common Pitfalls of Platform PM
+### Common Pitfalls of Platform PM
 
 A Platform PM will encounter challenges when creating and evangelizing a product roadmap. These include convincing product teams to migrate from ad-hoc tooling to centralized engineering platforms, introducing new tools to avoid further fragmentation and complexity, and setting proxy metrics when top-line metrics can be costly or difficult to measure regularly.
 
@@ -138,7 +140,7 @@ When platform teams are first formed, PMs face particularly large challenges in 
 
 4. Assess whether we can reuse, extend, and deprecate existing tooling to minimize additional fragmentation.
 
-## Technique: Overlay Industry Research
+### Technique: Overlay Industry Research
 
 Over twenty years in the developer platform space have shown us that developers face many problems, including change management due to multiple software versions, fragmented user experience from too many tools, and hard-to-find or outdated documentation. Creating a roadmap to address these issues relies on judgment from product management and engineering leaders. Our experience indicates that these decisions are often subjective and influenced by the most prominent voices or arbitrary consensus-building.
 
@@ -148,13 +150,13 @@ In this example, we highlight (in yellow) specific problems to solve. To narrow 
 
 ![Harness State of Developer Experience Report 2024](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/harness-state-of-developer-experience.png "Harness State of Developer Experience Report 2024")
 
-## Theme by Priority Problems
+### Theme by Priority Problems
 
 By anchoring on problems sized by research, we can then embark on the standard product exercise of brainstorming solutions and grouping them in themes against each problem.  
 
 ![Grouping Into Themes](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/grouping-into-themes.png "Grouping Into Themes")
 
-## What new directions should we explore?
+### What new directions should we explore?
 
 In addition to using data to create a roadmap, it’s useful to use our experience and judgment to explore new long-term directions and/or new business expansion initiatives. This typically requires combining company-level strategy and important market trends that the company must address in order to succeed.
 
@@ -162,7 +164,7 @@ For example, Meta’s strategic directions are to (a) transform its products fro
 
 ![Directions for Meta Developer Platforms](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/directions-for-meta-developer-platforms.png "Directions for Meta Developer Platforms")
 
-# 4\. How do you create a timeline for the roadmap?
+## 4\. How do you create a timeline for the roadmap?
 
 Recall that **Leverage**, **Velocity**, and **Impact** are the benefits of a Platform. An effective way to create a roadmap timeline is to map features on a 2x2 matrix. Here we use Leverage and Velocity as the X and Y coordinates, placing features into four quadrants. Features in the top right quadrant are prioritized for early delivery, while those in the bottom left are delivered last.
 
@@ -170,21 +172,18 @@ There may be exceptions to the ordering. Features that deliver substantial busin
 
 ![Product Roadmap Timeline](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/product-roadmap-timeline.png "Product Roadmap Timeline")
 
-# 5\. What is the Go-to-Market plan that ensures adoption?
+## 5\. What is the Go-to-Market plan that ensures adoption?
 
 We usually conclude a Platform roadmap with specific steps to ensure the adoption of new capabilities. It is crucial that the teams responsible for execution—usually sales, marketing, and customer service—explicitly agree on this plan.
 
 ![Product Roadmap Plan](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/product-roadmap-plan.png "Product Roadmap Plan")
 
-# Conclusion
+## Conclusion
 
 This article assumes that the product leader has a strong understanding of the product roadmap process. It is meant to highlight the main differences in building platforms as compared to products. We hope this article will be a helpful starting resource for building platforms and we would love to hear your feedback and suggestions on it, other resources, and future articles.
 
 Finally, many thanks to our Neuronn AI colleagues and [Alanna Viega](https://www.linkedin.com/in/alanna-veiga/) for reviewing and providing feedback on this article.
 
-# About Neuronn AI
+## About Neuronn AI
 
 Neuronn AI is a professional advisory group rooted in prominent Artificial Intelligence companies such as Meta. Leveraging extensive expertise in Data Science & Data Engineering, AI Product Management, Market Research, and Strategic and Brand Marketing, we offer fractional assistance to startups looking to launch AI-driven product ideas and provide consulting services to enterprises seeking to implement AI to accelerate their outcomes. Neuronn AI's advisors include [Alex Kalinin](https://www.linkedin.com/in/alex-kalinin-seattle), [Carlos Romero](https://www.linkedin.com/in/carlos-f-romero/), [Enrique Ortiz](https://www.linkedin.com/in/enriqueortiz), [Lacey Olsen](https://www.linkedin.com/in/laceyolsen), [Norman Lee](https://www.linkedin.com/in/normanhlee/), [Owen Nwanze-Obaseki](https://www.linkedin.com/in/thebritishtexan/), [Rick Gupta](https://www.linkedin.com/in/rickgupta/), [Seda Palaz Pazarbasi](https://www.linkedin.com/in/sedapalazpazarbasi/), [Sid Palani](https://www.linkedin.com/in/sidpalani) and [Vik Chaudhary](https://www.linkedin.com/in/vikchaudhary).
-
-
-
