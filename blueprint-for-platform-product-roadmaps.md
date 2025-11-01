@@ -50,7 +50,7 @@ In our examples, we will address developers' workflow using a platform to build 
 
 A product vision is a statement that outlines a product's purpose, value, and long-term goals. Here’s an example of an internal developer platform at Meta that helps developers build and operate consumer apps like Facebook:
 
-![Example Vision](/guides/assets/img/blueprint-for-platform-product-roadmaps/example-vision.png "Examples of Platform Product Vision")
+![Example Vision](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/example-vision.png "Examples of Platform Product Vision")
 
 ## Principles for Internal Platforms
 
@@ -82,7 +82,7 @@ When building a Platform for internal use, be driven by deep discovery, 10x prob
 
 What is the rationale for building a developer platform? A platform allows a company to provide its core offerings in a way that can easily adapt and scale into a large ecosystem of customers and partners. It benefits the ecosystem because it creates a common language for building and adopting core features, making development easier and increasing velocity, leverage, and impact for the business. 
 
-![Platform Benefits](/guides/assets/img/blueprint-for-platform-product-roadmaps/platform-benefits.png "Platform Benefits")
+![Platform Benefits](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/platform-benefits.png "Platform Benefits")
 
 The best-in-class tooling from each development team can be centralized in the engineering platform for all other teams to benefit from. In addition, having a robust, well-documented engineering platform can expedite the time from hire to first pull request, increasing the productivity of new or transferred developers.
 
@@ -90,7 +90,7 @@ The best-in-class tooling from each development team can be centralized in the e
 
 While every platform is unique, it shares a set of “always-on” priorities that ground a roadmap: developer experience, delivery, and reliability. Developers are not only the core users but also the force multipliers for the platform’s impact and scale. These priorities address core needs regardless of specific use cases and provide helpful constraints to manage the numerous possible directions platforms can take.
 
-![Evergreen Priorities ](/guides/assets/img/blueprint-for-platform-product-roadmaps/evergreen-priorities.png "Evergreen Priorities")
+![Evergreen Priorities ](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/evergreen-priorities.png "Evergreen Priorities")
 
 ## Considerations for AI / ML Platforms
 
@@ -110,17 +110,17 @@ Platforms that employ artificial intelligence and machine learning features have
 
 Measuring success for platform products is especially challenging because they are removed from end use cases. As such, we focus on the primary developer users and use a broad set of dimensions to encompass how well the platform delivers the value promised. A framework commonly used at Google is the QUANTS framework, which we describe below.  
 
-![Setting Goals for Platforms](/guides/assets/img/blueprint-for-platform-product-roadmaps/setting-goals-for-platforms.png "Setting Goals for Platforms")
+![Setting Goals for Platforms](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/setting-goals-for-platforms.png "Setting Goals for Platforms")
 
 ## Example: Code Search metrics using QUANTS
 
 For example, we’ll describe a hypothetical feature called code search (a search engine dedicated to finding specific sections of program code) and break down how we measure success using the QUANTS framework.
 
-![Code Search Metrics Using QUANTS Framework](/guides/assets/img/blueprint-for-platform-product-roadmaps/code-search-metrics-using-quants-framework.png "Code Search Metrics Using QUANTS Framework")
+![Code Search Metrics Using QUANTS Framework](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/code-search-metrics-using-quants-framework.png "Code Search Metrics Using QUANTS Framework")
 
 Once developers adopt and use your platform tools, they will depend on their reliability. Within a company, this responsibility would fall to a developer operations organization. We recommend measuring reliability with a separate framework to minimize conflicts with other priorities.  
 
-![Measuring Reliability](/guides/assets/img/blueprint-for-platform-product-roadmaps/measuring-reliability.png "Measuring Reliability")
+![Measuring Reliability](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/measuring-reliability.png "Measuring Reliability")
 
 # 3\. How do you prioritize a platform roadmap?
 
@@ -146,13 +146,13 @@ Products and platforms share a common challenge: there are usually more problems
 
 In this example, we highlight (in yellow) specific problems to solve. To narrow down the many potential issues, we mapped them to findings from industry research, using Harness’ [State of the Developer Experience Report 2024](https://www.harness.io/state-of-developer-experience).
 
-![Harness State of Developer Experience Report 2024](/guides/assets/img/blueprint-for-platform-product-roadmaps/harness-state-of-developer-experience.png "Harness State of Developer Experience Report 2024")
+![Harness State of Developer Experience Report 2024](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/harness-state-of-developer-experience.png "Harness State of Developer Experience Report 2024")
 
 ## Theme by Priority Problems
 
 By anchoring on problems sized by research, we can then embark on the standard product exercise of brainstorming solutions and grouping them in themes against each problem.  
 
-![Grouping Into Themes](/guides/assets/img/blueprint-for-platform-product-roadmaps/grouping-into-themes.png "Grouping Into Themes")
+![Grouping Into Themes](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/grouping-into-themes.png "Grouping Into Themes")
 
 ## What new directions should we explore?
 
@@ -160,7 +160,7 @@ In addition to using data to create a roadmap, it’s useful to use our experien
 
 For example, Meta’s strategic directions are to (a) transform its products from mobile and web to virtual reality (VR) headsets, (b) optimize the delivery of advertising and reverse ad revenue loss from systems issues, and (c) make its 50,000+ developers more productive. With these objectives in mind, we might suggest some new directions for Meta’s developer platforms, below.
 
-![Directions for Meta Developer Platforms](/guides/assets/img/blueprint-for-platform-product-roadmaps/directions-for-meta-developer-platforms.png "Directions for Meta Developer Platforms")
+![Directions for Meta Developer Platforms](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/directions-for-meta-developer-platforms.png "Directions for Meta Developer Platforms")
 
 # 4\. How do you create a timeline for the roadmap?
 
@@ -168,13 +168,13 @@ Recall that **Leverage**, **Velocity**, and **Impact** are the benefits of a Pla
 
 There may be exceptions to the ordering. Features that deliver substantial business impact (Impact being our third benefit), might be accelerated in the timeline. Additionally, use judgment when necessary. For example, improving documentation for internal tools may have low Leverage and moderate Velocity but it could still be prioritized for earlier delivery due to its common-sense value.
 
-![Product Roadmap Timeline](/guides/assets/img/blueprint-for-platform-product-roadmaps/product-roadmap-timeline.png "Product Roadmap Timeline")
+![Product Roadmap Timeline](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/product-roadmap-timeline.png "Product Roadmap Timeline")
 
 # 5\. What is the Go-to-Market plan that ensures adoption?
 
 We usually conclude a Platform roadmap with specific steps to ensure the adoption of new capabilities. It is crucial that the teams responsible for execution—usually sales, marketing, and customer service—explicitly agree on this plan.
 
-![Product Roadmap Plan](/guides/assets/img/blueprint-for-platform-product-roadmaps/product-roadmap-plan.png "Product Roadmap Plan")
+![Product Roadmap Plan](https://github.com/vikchaudhary/guides/blob/main/assets/img/blueprint-for-platform-product-roadmaps/product-roadmap-plan.png "Product Roadmap Plan")
 
 # Conclusion
 
